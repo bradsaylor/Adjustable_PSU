@@ -6,8 +6,8 @@
 #include <xc.h> // include processor files - each processor file is guarded.  
 
 //external enumerated type declarations
-typedef enum{                             //required for enable/disable funcs
-  Voltage,
+typedef enum{                             //required for enable,disable, and 
+  Voltage,                                //Set_DC funcs
   Current
 }V_or_I_PWM;
 
